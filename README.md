@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Application Details
 |               |
 | ------------- |
@@ -34,3 +35,7 @@ Invoices List
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
 
+=======
+# Fiori-Iniciacion
+Fiori sapui5 iniciacion
+>>>>>>> 03909160a4baaa92af7eaf6259626d91b419064e
