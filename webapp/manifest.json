@@ -89,7 +89,7 @@
             }
         },
         "rootView": {
-            "viewName": "logaligroup.invoices.view.App",
+            "viewName": "logaligroup.invoices.view.MainView",
             "type": "XML",
             "id": "App"
         }
