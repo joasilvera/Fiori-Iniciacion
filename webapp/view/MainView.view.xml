@@ -3,4 +3,19 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
     </Page>
+       <contents>
+            <panel headerText="Selection Screen">
+                <label id="labelShipName" labelFor="shipName" text="Ship Name" class="sapUiSmallMargin"/> 
+                <input id="shipName" width="200px" class="sapUiSmallMarginEnd"/>
+                <label id="labelCountry" text="Country" class="sapUiSmallMargin"/>
+
+
+            </panel>
+
+
+
+       </contents>
+
+
+
 </mvc:View>
