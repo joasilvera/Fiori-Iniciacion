@@ -1,23 +1,23 @@
-<mvc:View>
+<mvc:View
     controllerName="logaligroup.invoices.controller.MainView"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
     xmlns="sap.m">
 
-    <shell id="shell"/> 
-        <app id="app">
+    <Shell id="shell"> 
+        <App id="app">
             <pages>
                 <Page id="page" title="{i18n>title}">
-                     <contents>
-                        <panel headerText="Selection Screen">
+                     <content>
+                        <Panel headerText="Selection Screen">
                             <label id="labelShipName" labelFor="shipName" text="Ship Name" class="sapUiSmallMargin"/> 
                             <input id="shipName" width="200px" class="sapUiSmallMarginEnd"/>
                             <label id="labelCountry" text="Country" class="sapUiSmallMargin"/>
-                        </panel>
-                    </contents>
-                </page>            
+                        </Panel>
+                    </content>
+                </Page>            
             </pages>
-        </app>
-    </shell>
+        </App>
+    </Shell>
         
 </mvc:View>
